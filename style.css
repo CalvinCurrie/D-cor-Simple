@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 998px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+/* NAVIGATION PAGE */
+
+nav {
+    max-width: 1080;
+    height: 10vh;
+    color: white;
+    background-color: black;
+    align-items: center;
+}
+
+nav .container {
+    margin: 0 auto 0 15vh;
+}
+
+.nav--brandName {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.navigation__logo {
+    height: 50px;
+}
+
+/* LANDING PAGE */
+
+#landing__page {
+    height: 90vh;
+    background-color: rgb(240, 247, 234);
+}
+
+#landing__page .container {
+    margin: 0;
+}
+
+.landing__page--wrapper {
+    display: flex;
+}
+
+/* drop down menu */
+
+.drop-down__menu {
+    display: flex;
+    flex-wrap: wrap;
+    border: solid 2px black;
+    border-top-width: 0;
+    width: 100%;
+    max-width: 150px;
+    height: 90vh;
+}
+
+span {
+    display: flex;
+    width: 100%;
+    padding: 0px 5px 5px 15px;
+}
+
+.Non-Selectable {
+    color: grey;
+    padding: 10px 5px 0 15px;
+}
+
+span:first-child {
+    padding: 20px 5px 0 15px;
+}
+
+span:last-child {
+    padding: 0 5px 20px 15px;
+}
+
+/* headline */
+
+
+
+.landing__page--description {
+    display: flex;
+    justify-content: center;
+}
+
+.landing__page--logo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 15px black;
+}
